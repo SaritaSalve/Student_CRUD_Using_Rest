@@ -1,0 +1,19 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+<!--   <servlet> -->
+<!--   <servlet-class>dispatcherservlet</servlet-class> -->
+<!--   <servlet-name>SSSSS</servlet-name> -->
+<!--   </servlet> -->
+  
+<!--   <servlet-mapping> -->
+<!--   <servlet-name>SSSSS</servlet-name> -->
+<!--   <url-pattern>/UrlStarting</url-pattern> -->
+<!--   <url-pattern>/*</url-pattern> for any url-->
+<!--   </servlet-mapping> -->
+</web-app>
+<!-- base Url is hhtp://localhost:8080/springMva Application/UrlStarting asel tarch dispatcher allow -->

@@ -1,0 +1,64 @@
+package com.java.spring.Entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="STUD_INFO")
+public class Student_Info {
+	@Id
+	private int studId;
+	private String studName;
+	private String address;
+	private String gender;
+	private double fees;
+	public int getStudId() {
+		return studId;
+	}
+	public void setStudId(int studId) {
+		this.studId = studId;
+	}
+	public String getStudName() {
+		return studName;
+	}
+	public void setStudName(String studName) {
+		this.studName = studName;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public double getFees() {
+		return fees;
+	}
+	public void setFees(double fees) {
+		this.fees = fees;
+	}
+	@Override
+	public String toString() {
+		return "Student_Info [studId=" + studId + ", studName=" + studName + ", address=" + address + ", gender="
+				+ gender + ", fees=" + fees + "]";
+	}
+	public Student_Info(int studId, String studName, String address, String gender, double fees) {
+		super();
+		this.studId = studId;
+		this.studName = studName;
+		this.address = address;
+		this.gender = gender;
+		this.fees = fees;
+	}
+	public Student_Info() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	 
+}
